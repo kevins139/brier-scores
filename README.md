@@ -1,6 +1,8 @@
 # brier-scores
 Simple list of example brier scores
 
+![Screenshot](brier-chart.png)
+
 Percentage certainty | Brier score if resolved as YES | Brier score if resolved as NO
 ------------- | ------------- | -------------
 0 | 2 | 0
