@@ -3,6 +3,7 @@ Simple list of example brier scores
 
 Percentage certainty | Brier score if resolved as YES | Brier score if resolved as NO
 ------------- | ------------- | -------------
+0 | 2 | 0
 1 | 1.9602 | 0.0002
 2 | 1.9208 | 0.0008
 3 | 1.8818 | 0.0018
