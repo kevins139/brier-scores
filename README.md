@@ -11,7 +11,7 @@ If you set 5% Yes and the question resolves as 'No'
 
 i.e. by changing from 5% -> 0% chance, you improve your score by a further 0.005% if you're correct, but damage it by a further 0.76% if wrong.
 
-Below is a chart illustrating the effect visually
+Below is a chart illustrating the effect
 
 ![Screenshot](brier-chart.png)
 
