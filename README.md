@@ -1,5 +1,16 @@
-# brier-scores
-Simple list of example brier scores
+# Polar forecasts and Brier scores
+
+Imagine your Brier score is currently 0.5 and you've answered 50 questions.
+If you set 0% Yes:
+-And it resolves as Yes your brier score will decrease to 0.49 (improved by 2%)
+-And it resolves as No your brier score will increase to 0.529412 (5.88% worse)
+If you set 5% Yes and the question resolves as 'No'
+-And it resolves as Yes your brier score will improve to 0.490294 (improved by 1.995%)
+-And it resolves as No your brier score will increase to 0.525588(5.12% worse)
+
+i.e. by changing from 5% -> 0% chance, you improve your score by a further 0.005% if you're correct, but damage it by a further 0.76% if wrong.
+
+Below is a chart illustrating the effect visually
 
 ![Screenshot](brier-chart.png)
 
